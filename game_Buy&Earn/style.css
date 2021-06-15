@@ -1,0 +1,132 @@
+body {
+    background-color: #f7f1e3;
+    font-family: 'Amatic SC', cursive;
+}
+.cashWrapper{
+    height: 150px;
+    margin-bottom: 50px;
+}
+.cash {
+    background-color: #ffeaa7;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 150px;
+    color: #474787;
+    border-bottom: 10px solid #fdcb6e;
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.cash:hover {
+    background: #ffda79;
+    transition-duration: 1s;
+}
+
+.cash:active {
+    width: 70px;
+    height: 70px;
+    font-size: larger;
+    line-height: 70px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#kioskBuy:hover {
+    border: #ff5252 5px solid;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+#bankBuy:hover {
+    border: #ff5252 5px solid;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+#shopBuy:hover {
+    border: #ff5252 5px solid;
+    border-radius: 20px;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+.property {
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    color: #474787;
+}
+
+.propertyInfo {
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.propertyInfo {
+    position: relative;
+    height: 200px;
+}
+
+.kiosk {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+.shop {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.bank {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+}
+
+.kiosk,
+.shop,
+.bank {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffd97975;
+    border-bottom: 10px solid #b2bec370;
+    width: 200px;
+    line-height: 2;
+    font-size: 21px;
+    display: none;
+}
+
+.propertyInfo h2 {
+    font-weight: 900;
+    text-decoration: underline;
+    text-align: center;
+    text-decoration: underline;
+}
